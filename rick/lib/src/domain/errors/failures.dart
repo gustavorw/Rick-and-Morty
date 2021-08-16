@@ -1,0 +1,1 @@
+class GenericFailure implements Exception {}
