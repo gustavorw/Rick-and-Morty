@@ -7,9 +7,9 @@ abstract class CharacterRepository {
   Future<List<CharacterEntity>> getCharacter(int page);
 }
 
-class RickAndMortyRepositoryImpl implements CharacterRepository {
+class CharacterRepositoryImpl implements CharacterRepository {
   final Dio dio;
-  RickAndMortyRepositoryImpl(
+  CharacterRepositoryImpl(
     this.dio,
   );
 
